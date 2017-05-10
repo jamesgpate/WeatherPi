@@ -1,0 +1,11 @@
+package gui;
+
+import javax.swing.JFrame;
+
+public class Frame {
+	public static void main(String[] whateverYouWantItToBe){
+		JFrame f = new JFrame("The Weather");
+		Canvas c = new Canvas();
+		f.add(c);
+	}
+}
